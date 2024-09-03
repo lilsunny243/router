@@ -61,7 +61,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: download-artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build
       - name: untar
@@ -84,7 +84,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: download-artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build
       - name: untar
@@ -107,7 +107,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: download-artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build
       - name: untar
@@ -159,7 +159,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
       - name: download-artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4.1.7
         with:
           name: build
       - name: untar
